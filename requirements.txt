@@ -1,0 +1,10 @@
+# Jupyter Notebook environment with Julia kernel
+jupyter
+ijulia  # Jupyter kernel for running Julia code
+
+# For optional Python API interactions
+openai  # OpenAI Python client, if used alongside Julia
+python-dotenv  # for managing environment variables, e.g., API keys
+
+# Custom GitHub repository
+-e git+https://github.com/simonpierreboucher/llm_Julia_notebook.git#egg=llm_Julia_notebook
